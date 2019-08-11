@@ -64,7 +64,7 @@ int pop()
 
 void display()
 {
-    int j=0;
+    int j=1;
     if(s.top==-1)
     printf("stack is empty\n");
     else{
@@ -72,7 +72,7 @@ void display()
     while(j<=s.top){
     printf("%d ",s.stk[j]);
     j++;}
-        
+        printf("\n");
     }}
     
     
